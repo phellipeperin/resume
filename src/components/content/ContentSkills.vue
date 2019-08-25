@@ -76,6 +76,7 @@
                             { name: 'React Native Paper', strong: false },
                             { name: 'Mocha', strong: false },
                             { name: 'Chai', strong: false },
+                            { name: 'Spring', strong: false },
                             { name: 'WordPress', strong: true },
                         ],
                     },

@@ -21,7 +21,7 @@
                 </v-btn>
             </v-card-text>
 
-            <v-divider></v-divider>
+            <v-divider class="mx-4" />
 
             <v-card-text class="white--text">
                 <strong>Phellipe Perin</strong> — Front-end Developer

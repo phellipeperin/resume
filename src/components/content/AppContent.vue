@@ -23,7 +23,7 @@
             <v-row>
                 <v-col
                     cols="12"
-                    class="pa-0"
+                    class="py-0"
                 >
                     <content-work-experience />
                 </v-col>
