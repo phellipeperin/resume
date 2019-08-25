@@ -1,0 +1,24 @@
+{
+    "extends": [
+        "plugin:vue/recommended",
+        "@vue/airbnb"
+    ],
+    "overrides": [
+        {
+            "files": ["*.vue"],
+            "rules": {
+                "indent": "off"
+            }
+        }
+    ],
+    "rules": {
+        "indent": [2, 4],
+        "vue/html-indent": [2, 4],
+        "vue/script-indent": [2, 4, {
+            "baseIndent": 1
+        }]
+    },
+    "plugins": [
+        "html"
+    ]
+}

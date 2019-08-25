@@ -1,4 +1,5 @@
-# resume
+# Resume Phellipe Perin
+This project is the resume and portfolio of Phellipe Perin, a brazilian front-end developer. This is a (very) simple Vue.js application using Vuetify (material design).  
 
 ## Project setup
 ```
@@ -15,15 +16,10 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
 ### Lints and fixes files
+I use the Airbnb styleguide, you can check it out here: https://github.com/airbnb/javascript
+
+However, I made some small changes to indent. Don't worry, lint will warn you :)
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
