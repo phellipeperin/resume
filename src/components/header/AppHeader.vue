@@ -12,6 +12,7 @@
 
         <social-link destination="LINKEDIN" />
         <social-link destination="GITHUB" />
+        <social-link destination="EMAIL" />
         <social-link destination="RESUME" />
     </v-app-bar>
 </template>

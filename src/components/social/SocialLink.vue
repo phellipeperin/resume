@@ -17,7 +17,7 @@
     export default {
         name: 'SocialLink',
         props: {
-            destination: { type: String, required: true, validator: value => (['LINKEDIN', 'GITHUB', 'RESUME'].indexOf(value) !== -1) },
+            destination: { type: String, required: true, validator: value => (['LINKEDIN', 'GITHUB', 'EMAIL', 'RESUME'].indexOf(value) !== -1) },
         },
         data() {
             return {
@@ -34,6 +34,10 @@
                 this.icon = '$vuetify.icons.githubBox';
                 this.description = 'Github';
             }
+            if (this.destination === 'EMAIL') {
+                this.icon = '$vuetify.icons.email';
+                this.description = 'Email';
+            }
             if (this.destination === 'RESUME') {
                 this.icon = '$vuetify.icons.fileAccount';
                 this.description = 'Resume';
@@ -44,6 +48,7 @@
                 let url = '';
                 if (this.destination === 'LINKEDIN') url = 'https://www.linkedin.com/in/phellipeperin/';
                 if (this.destination === 'GITHUB') url = 'https://github.com/phellipeperin';
+                if (this.destination === 'EMAIL') url = 'mailto:phellipe.perin@gmail.com';
                 if (this.destination === 'RESUME') url = 'http://phellipe.com.br/resume.pdf';
 
                 if (url) window.open(url, '_blank');
