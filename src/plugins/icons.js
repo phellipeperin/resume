@@ -1,4 +1,7 @@
 import {
+    mdiCheckboxBlankCircle,
+    mdiChevronLeft,
+    mdiChevronRight,
     mdiEmail,
     mdiFileAccount,
     mdiGithubBox,
@@ -8,6 +11,9 @@ import {
 } from '@mdi/js';
 
 export default {
+    checkboxBlankCircle: mdiCheckboxBlankCircle,
+    chevronLeft: mdiChevronLeft,
+    chevronRight: mdiChevronRight,
     email: mdiEmail,
     fileAccount: mdiFileAccount,
     githubBox: mdiGithubBox,

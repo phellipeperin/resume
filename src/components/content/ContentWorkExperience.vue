@@ -1,11 +1,6 @@
 <template>
-    <div class="py-8">
-        <h5
-            class="display-2 text-uppercase font-weight-light mb-4"
-            :class="{'text-center': $vuetify.breakpoint.mdAndUp}"
-        >
-            Carrer History
-        </h5>
+    <div class="blue-grey lighten-5 py-10 px-4">
+        <section-header title="Carrer History" />
 
         <v-timeline :dense="$vuetify.breakpoint.smAndDown">
             <v-timeline-item
@@ -20,7 +15,6 @@
                         <span class="subtitle-1 ml-2">at <strong>{{ work.company }}</strong></span>
                     </v-card-title>
 
-                    <v-card-text class="subtitle-1 py-0"></v-card-text>
                     <v-card-text class="subtitle-1 py-0">
                         from <strong>{{ work.start }}</strong>
                         <span v-if="work.end">&nbsp;to <strong>{{ work.end }}</strong></span>
@@ -42,8 +36,11 @@
 </template>
 
 <script>
+    import SectionHeader from '../header/SectionHeader.vue';
+
     export default {
         name: 'ContentWorkExperience',
+        components: { SectionHeader },
         data() {
             return {
                 workExperinceList: [
