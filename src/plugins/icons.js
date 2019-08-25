@@ -3,6 +3,8 @@ import {
     mdiFileAccount,
     mdiGithubBox,
     mdiLinkedinBox,
+    mdiMapClock,
+    mdiMapMarker,
 } from '@mdi/js';
 
 export default {
@@ -10,4 +12,6 @@ export default {
     fileAccount: mdiFileAccount,
     githubBox: mdiGithubBox,
     linkedinBox: mdiLinkedinBox,
+    mapClock: mdiMapClock,
+    mapMarker: mdiMapMarker,
 };

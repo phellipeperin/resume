@@ -4,7 +4,10 @@
             <v-card-title>
                 <div class="display-1">
                     Skills & Languages
-                    <v-chip color="secondary">
+                    <v-chip
+                        label
+                        color="secondary"
+                    >
                         Stronger ones
                     </v-chip>
                 </div>
@@ -26,6 +29,8 @@
                             v-for="skill in skillArea.skillSet"
                             :key="skill.name"
                             :color="skill.strong ? 'secondary' : 'default'"
+                            :outlined="!skill.strong"
+                            label
                             class="mr-2 mb-2"
                         >
                             {{ skill.name }}
@@ -66,6 +71,9 @@
                             { name: 'Ionic', strong: false },
                             { name: 'SASS', strong: true },
                             { name: 'Stylus', strong: false },
+                            { name: 'Vuetify', strong: true },
+                            { name: 'Bootstrap', strong: true },
+                            { name: 'React Native Paper', strong: false },
                             { name: 'Mocha', strong: false },
                             { name: 'Chai', strong: false },
                             { name: 'WordPress', strong: true },

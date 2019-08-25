@@ -19,6 +19,34 @@
         <p class="title font-weight-light mb-3">5 of those working remotely.</p>
         <p class="title font-weight-light mb-0">Currently focused on developing Vue.js SPAs.</p>
         <p class="title font-weight-light">Now learning React & React Native.</p>
+
+        <v-divider class="my-5 mx-4" />
+
+        <v-list
+            class="mx-auto primary"
+            width="300px"
+        >
+            <v-list-item
+                v-for="contactInfo in contactInfoList"
+                :key="contactInfo.value"
+                class="primary white--text"
+            >
+                <v-list-item-avatar>
+                    <v-icon
+                        v-text="contactInfo.icon"
+                        class="white--text"
+                        size="24px"
+                    />
+                </v-list-item-avatar>
+
+                <v-list-item-content>
+                    <v-list-item-title
+                        v-text="contactInfo.value"
+                        class="body-2 text-uppercase white--text"
+                    />
+                </v-list-item-content>
+            </v-list-item>
+        </v-list>
     </div>
 </template>
 
@@ -30,6 +58,11 @@
         data() {
             return {
                 profileImage,
+                contactInfoList: [
+                    { icon: '$vuetify.icons.email', value: 'phellipe.perin@gmail.com' },
+                    { icon: '$vuetify.icons.mapMarker', value: 'Florianópolis, SC - Brazil' },
+                    { icon: '$vuetify.icons.mapClock', value: 'UTC -3' },
+                ],
             };
         },
     };
@@ -38,5 +71,9 @@
 <style scoped>
     .full-height {
         height: 100%;
+    }
+
+    .contact-title {
+        font-size: 18px;
     }
 </style>
