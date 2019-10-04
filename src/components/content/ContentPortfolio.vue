@@ -1,23 +1,43 @@
-<template>
-    <div class="white py-10 px-4">
-        <section-header
-            title="Portfolio"
-            subtitle="I can't make public most of my code, however I can share some screenshots :)"
-        />
++<template>
+    <div class="white py-10 px-4 text-center">
+        <section-header title="Portfolio" />
 
-        <v-carousel
-            cycle
-            height="640px"
-            delimiter-icon="$vuetify.icons.checkboxBlankCircle"
-            next-icon="$vuetify.icons.chevronRight"
-            prev-icon="$vuetify.icons.chevronLeft"
+        <p class="body-1 mb-0 mt-2">I can't make public most of my code, however I can share some screenshots.</p>
+        <p class="body-1 mb-0">You should still check my GitHub, there are some pet projects there :)</p>
+        <v-btn
+            x-large
+            depressed
+            color="secondary"
+            class="mt-4 mb-8"
+            @click="goToGithub"
         >
-            <v-carousel-item
-                v-for="(screenshot, i) in portfolioScreenshots"
-                :key="i"
-                :src="screenshot.img"
-            />
-        </v-carousel>
+            See Pet Projects
+        </v-btn>
+
+        <v-container fluid>
+            <v-row>
+                <v-col
+                    v-for="(screenshot, i) in portfolioScreenshots"
+                    :key="i"
+                    class="d-flex child-flex"
+                    cols="12"
+                    sm="6"
+                    md="4"
+                >
+                    <v-card
+                        flat
+                        tile
+                        class="d-flex"
+                    >
+                        <img
+                            :src="screenshot.img"
+                            alt="Screenshot"
+                            width="100%"
+                        >
+                    </v-card>
+                </v-col>
+            </v-row>
+        </v-container>
     </div>
 </template>
 
@@ -37,8 +57,16 @@
                     { img: screenshotNexfar1 },
                     { img: screenshotSymph1 },
                     { img: screenshotSymph2 },
+                    { img: screenshotNexfar1 },
+                    { img: screenshotSymph1 },
+                    { img: screenshotSymph2 },
                 ],
             };
+        },
+        methods: {
+            goToGithub() {
+                window.open('https://github.com/phellipeperin', '_blank');
+            },
         },
     };
 </script>

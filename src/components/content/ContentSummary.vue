@@ -18,7 +18,6 @@
         <p class="title font-weight-light mb-0">Front-end developer with 7+ years of experience.</p>
         <p class="title font-weight-light mb-3">5 of those working remotely.</p>
         <p class="title font-weight-light mb-0">Currently focused on developing Vue.js SPAs.</p>
-        <p class="title font-weight-light">Now learning React & React Native.</p>
 
         <v-divider class="my-5 mx-4" />
 

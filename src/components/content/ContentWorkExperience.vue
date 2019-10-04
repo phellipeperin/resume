@@ -9,27 +9,7 @@
                 fill-dot
                 small
             >
-                <v-card class="elevation-2">
-                    <v-card-title class="headline">
-                        {{ work.role }}
-                        <span class="subtitle-1 ml-2">at <strong>{{ work.company }}</strong></span>
-                    </v-card-title>
-
-                    <v-card-text class="subtitle-1 py-0">
-                        from <strong>{{ work.start }}</strong>
-                        <span v-if="work.end">&nbsp;to <strong>{{ work.end }}</strong></span>
-                    </v-card-text>
-
-                    <v-card-text>
-                        <p
-                            v-for="description in work.descriptionList"
-                            :key="description"
-                            class="mb-0"
-                        >
-                            - {{ description }}
-                        </p>
-                    </v-card-text>
-                </v-card>
+                <content-work-experience-item :work="work" />
             </v-timeline-item>
         </v-timeline>
     </div>
@@ -37,10 +17,11 @@
 
 <script>
     import SectionHeader from '../header/SectionHeader.vue';
+    import ContentWorkExperienceItem from './ContentWorkExperienceItem.vue';
 
     export default {
         name: 'ContentWorkExperience',
-        components: { SectionHeader },
+        components: { SectionHeader, ContentWorkExperienceItem },
         data() {
             return {
                 workExperinceList: [

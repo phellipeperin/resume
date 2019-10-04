@@ -86,6 +86,7 @@
                             { name: 'Redux', strong: true },
                             { name: 'Vuex', strong: true },
                             { name: 'JSON', strong: true },
+                            { name: 'Firebase', strong: false },
                             { name: 'MongoDB', strong: false },
                             { name: 'SQL', strong: false },
                             { name: 'Git', strong: true },

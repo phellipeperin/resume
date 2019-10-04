@@ -33,6 +33,14 @@
                     cols="12"
                     class="pa-0"
                 >
+                    <content-udemy-course />
+                </v-col>
+            </v-row>
+            <v-row>
+                <v-col
+                    cols="12"
+                    class="pa-0"
+                >
                     <content-portfolio />
                 </v-col>
             </v-row>
@@ -44,11 +52,18 @@
     import ContentSummary from './ContentSummary.vue';
     import ContentSkills from './ContentSkills.vue';
     import ContentWorkExperience from './ContentWorkExperience.vue';
+    import ContentUdemyCourse from './ContentUdemyCourse.vue';
     import ContentPortfolio from './ContentPortfolio.vue';
 
     export default {
         name: 'AppContent',
-        components: { ContentSummary, ContentSkills, ContentWorkExperience, ContentPortfolio },
+        components: {
+            ContentSummary,
+            ContentSkills,
+            ContentWorkExperience,
+            ContentUdemyCourse,
+            ContentPortfolio,
+        },
     };
 </script>
 
