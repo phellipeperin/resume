@@ -21,7 +21,9 @@
             Check it out
         </v-btn>
 
-        <p class="caption text-uppercase mt-4">( on Portuguese )</p>
+        <p class="caption text-uppercase mt-4">
+            ( on Portuguese )
+        </p>
     </div>
 </template>
 

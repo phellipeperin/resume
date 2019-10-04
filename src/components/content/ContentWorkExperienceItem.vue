@@ -12,9 +12,9 @@
 
         <v-card-text>
             <p
-                    v-for="description in work.descriptionList"
-                    :key="description"
-                    class="mb-0"
+                v-for="description in work.descriptionList"
+                :key="description"
+                class="mb-0"
             >
                 - {{ description }}
             </p>

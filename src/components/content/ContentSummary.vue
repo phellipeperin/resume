@@ -10,14 +10,24 @@
             >
         </v-avatar>
 
-        <h5 class="display-1">Phellipe Perin</h5>
-        <h6 class="subtitle-1 text-uppercase">Front-end Developer</h6>
+        <h5 class="display-1">
+            Phellipe Perin
+        </h5>
+        <h6 class="subtitle-1 text-uppercase">
+            Front-end Developer
+        </h6>
 
         <v-divider class="my-5 mx-4" />
 
-        <p class="title font-weight-light mb-0">Front-end developer with 7+ years of experience.</p>
-        <p class="title font-weight-light mb-3">5 of those working remotely.</p>
-        <p class="title font-weight-light mb-0">Currently focused on developing Vue.js SPAs.</p>
+        <p class="title font-weight-light mb-0">
+            Front-end developer with 7+ years of experience.
+        </p>
+        <p class="title font-weight-light mb-3">
+            5 of those working remotely.
+        </p>
+        <p class="title font-weight-light mb-0">
+            Currently focused on developing Vue.js SPAs.
+        </p>
 
         <v-divider class="my-5 mx-4" />
 
@@ -32,16 +42,16 @@
             >
                 <v-list-item-avatar>
                     <v-icon
-                        v-text="contactInfo.icon"
                         class="white--text"
                         size="24px"
+                        v-text="contactInfo.icon"
                     />
                 </v-list-item-avatar>
 
                 <v-list-item-content>
                     <v-list-item-title
-                        v-text="contactInfo.value"
                         class="body-2 text-uppercase white--text"
+                        v-text="contactInfo.value"
                     />
                 </v-list-item-content>
             </v-list-item>

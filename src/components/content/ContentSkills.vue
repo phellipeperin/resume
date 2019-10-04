@@ -38,7 +38,6 @@
                     </v-card-text>
                 </v-col>
             </v-row>
-
         </v-card>
     </div>
 </template>

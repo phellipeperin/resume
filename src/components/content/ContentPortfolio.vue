@@ -2,8 +2,12 @@
     <div class="white py-10 px-4 text-center">
         <section-header title="Portfolio" />
 
-        <p class="body-1 mb-0 mt-2">I can't make public most of my code, however I can share some screenshots.</p>
-        <p class="body-1 mb-0">You should still check my GitHub, there are some pet projects there :)</p>
+        <p class="body-1 mb-0 mt-2">
+            I can't make public most of my code, however I can share some screenshots.
+        </p>
+        <p class="body-1 mb-0">
+            You should still check my GitHub, there are some pet projects there :)
+        </p>
         <v-btn
             x-large
             depressed
