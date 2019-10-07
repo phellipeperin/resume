@@ -26,19 +26,8 @@
                     class="d-flex child-flex"
                     cols="12"
                     sm="6"
-                    md="4"
                 >
-                    <v-card
-                        flat
-                        tile
-                        class="d-flex"
-                    >
-                        <img
-                            :src="screenshot.img"
-                            alt="Screenshot"
-                            width="100%"
-                        >
-                    </v-card>
+                    <content-portfolio-image :img-url="screenshot.img" />
                 </v-col>
             </v-row>
         </v-container>
@@ -47,6 +36,7 @@
 
 <script>
     import SectionHeader from '../header/SectionHeader.vue';
+    import ContentPortfolioImage from './ContentPortfolioImage.vue';
 
     const screenshotNexfar1 = require('../../assets/img/portfolio/nexfar1.png');
     const screenshotNexfar2 = require('../../assets/img/portfolio/nexfar2.png');
@@ -59,7 +49,7 @@
 
     export default {
         name: 'ContentPortfolio',
-        components: { SectionHeader },
+        components: { SectionHeader, ContentPortfolioImage },
         data() {
             return {
                 portfolioScreenshots: [
