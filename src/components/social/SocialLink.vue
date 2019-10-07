@@ -49,7 +49,7 @@
                 if (this.destination === 'LINKEDIN') url = 'https://www.linkedin.com/in/phellipeperin/';
                 if (this.destination === 'GITHUB') url = 'https://github.com/phellipeperin';
                 if (this.destination === 'EMAIL') url = 'mailto:phellipe.perin@gmail.com';
-                if (this.destination === 'RESUME') url = 'http://phellipe.com.br/resume.pdf';
+                if (this.destination === 'RESUME') url = 'http://phellipe.com.br/files/resume_phellipe_perin.pdf';
 
                 if (url) window.open(url, '_blank');
             },

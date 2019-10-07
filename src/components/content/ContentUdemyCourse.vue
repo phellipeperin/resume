@@ -39,7 +39,7 @@
         },
         methods: {
             goToUdemyCourse() {
-                window.open('https://www.udemy.com/', '_blank');
+                window.open('https://www.udemy.com/course/vue-js-basico-avancado/?couponCode=VUEJS_FOR_REAL', '_blank');
             },
         },
     };
