@@ -48,9 +48,14 @@
 <script>
     import SectionHeader from '../header/SectionHeader.vue';
 
-    const screenshotNexfar1 = require('../../assets/img/portfolio/portfolio_nexfar_1.png');
-    const screenshotSymph1 = require('../../assets/img/portfolio/portfolio_symph_1.png');
-    const screenshotSymph2 = require('../../assets/img/portfolio/portfolio_symph_2.png');
+    const screenshotNexfar1 = require('../../assets/img/portfolio/nexfar1.png');
+    const screenshotNexfar2 = require('../../assets/img/portfolio/nexfar2.png');
+    const screenshotNexfar3 = require('../../assets/img/portfolio/nexfar3.png');
+    const screenshotNexfar4 = require('../../assets/img/portfolio/nexfar4.png');
+    const screenshotNexfar5 = require('../../assets/img/portfolio/nexfar5.png');
+    const screenshotSymph1 = require('../../assets/img/portfolio/symph1.png');
+    const screenshotSymph2 = require('../../assets/img/portfolio/symph2.png');
+    const screenshotInova1 = require('../../assets/img/portfolio/inova1.png');
 
     export default {
         name: 'ContentPortfolio',
@@ -59,11 +64,13 @@
             return {
                 portfolioScreenshots: [
                     { img: screenshotNexfar1 },
+                    { img: screenshotNexfar2 },
+                    { img: screenshotNexfar3 },
+                    { img: screenshotNexfar4 },
+                    { img: screenshotNexfar5 },
                     { img: screenshotSymph1 },
                     { img: screenshotSymph2 },
-                    { img: screenshotNexfar1 },
-                    { img: screenshotSymph1 },
-                    { img: screenshotSymph2 },
+                    { img: screenshotInova1 },
                 ],
             };
         },
