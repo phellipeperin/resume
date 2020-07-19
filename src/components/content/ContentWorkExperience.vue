@@ -26,24 +26,37 @@
             return {
                 workExperinceList: [
                     {
+                        role: 'Software Engineer',
+                        company: 'EdirectInsure',
+                        start: 'jan/20',
+                        descriptionList: [
+                            'Insurance selling platform for south-east Asia.',
+                            'Back-end with API integration with Golang and Node.js',
+                            'Front-end pages and flow development with TypeScript and Polymer',
+                            'Communication in English with all clients.',
+                        ],
+                    },
+                    {
                         role: 'Lead Front-end Developer',
                         company: 'Nexfar',
                         start: 'nov/17',
                         descriptionList: [
-                            'Vue.js and Angular.js as core frameworks (migrated from latter to former)',
+                            'Vue.js and React.js as core frameworks',
+                            'Mentoring and teaching other front-end developers.',
                             'Designed both the web application and mobile app',
-                            'Responsible for all the front-end environment, from core decisions (such as which framework) to coding and deploying',
-                            'Mentoring and teaching other front-end developers',
+                            'Responsible for all the front-end environment, from core decisions (such as which framework) to coding and deploying.',
                         ],
                     },
                     {
                         role: 'Remote Freelancer',
                         company: 'PhPerin',
                         start: 'may/14',
+                        end: 'jan/20',
                         descriptionList: [
+                            'Developed and implemented software solutions based on client requirements.',
                             'Worked remotely for many different companies',
-                            'Served as core (or only) member of front-end development of 6 different SPAs',
-                            'Over 30 websites developed',
+                            'Served as lead/core member for 6 different SPAs.',
+                            'Delivered more than 40 different projects (SPAs, websites and more).',
                         ],
                     },
                     {
