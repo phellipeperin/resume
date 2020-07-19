@@ -11,7 +11,7 @@
         </v-avatar>
 
         <h5 class="display-1">
-            Phellipe Perin
+            Phellipe PERIN
         </h5>
         <h6 class="subtitle-1 text-uppercase">
             Front-end Developer
@@ -20,13 +20,10 @@
         <v-divider class="my-5 mx-4" />
 
         <p class="title font-weight-light mb-0">
-            Front-end developer with 7+ years of experience.
+            Front-end developer with 8+ years of experience.
         </p>
         <p class="title font-weight-light mb-3">
-            5 of those working remotely.
-        </p>
-        <p class="title font-weight-light mb-0">
-            Currently focused on developing Vue.js SPAs.
+            Experienced leading, mentoring and managing teams.
         </p>
 
         <v-divider class="my-5 mx-4" />
@@ -43,7 +40,7 @@
                 <v-list-item-avatar>
                     <v-icon
                         class="white--text"
-                        size="24px"
+                        size="20px"
                         v-text="contactInfo.icon"
                     />
                 </v-list-item-avatar>
@@ -69,8 +66,8 @@
                 profileImage,
                 contactInfoList: [
                     { icon: '$vuetify.icons.email', value: 'phellipe.perin@gmail.com' },
-                    { icon: '$vuetify.icons.mapMarker', value: 'Florianópolis, SC - Brazil' },
-                    { icon: '$vuetify.icons.mapClock', value: 'UTC -3' },
+                    { icon: '$vuetify.icons.mapMarker', value: 'Porto, Portugal' },
+                    { icon: '$vuetify.icons.mapClock', value: 'UTC +1' },
                 ],
             };
         },

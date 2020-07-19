@@ -6,7 +6,7 @@
         <v-card
             flat
             tile
-            class="primary text-center"
+            class="text-center"
             width="100%"
         >
             <v-card-text class="white--text">
@@ -24,7 +24,7 @@
             <v-divider class="mx-4" />
 
             <v-card-text class="white--text">
-                <strong>Phellipe Perin</strong> — Front-end Developer
+                <strong>Phellipe PERIN</strong> — Front-end Developer
             </v-card-text>
         </v-card>
     </v-footer>
