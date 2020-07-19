@@ -36,14 +36,14 @@
                     <content-udemy-course />
                 </v-col>
             </v-row>
-            <v-row>
+            <!-- <v-row>
                 <v-col
                     cols="12"
                     class="pa-0"
                 >
                     <content-portfolio />
                 </v-col>
-            </v-row>
+            </v-row> -->
         </v-container>
     </v-content>
 </template>
@@ -53,7 +53,7 @@
     import ContentSkills from './ContentSkills.vue';
     import ContentWorkExperience from './ContentWorkExperience.vue';
     import ContentUdemyCourse from './ContentUdemyCourse.vue';
-    import ContentPortfolio from './ContentPortfolio.vue';
+    // import ContentPortfolio from './ContentPortfolio.vue';
 
     export default {
         name: 'AppContent',
@@ -62,7 +62,7 @@
             ContentSkills,
             ContentWorkExperience,
             ContentUdemyCourse,
-            ContentPortfolio,
+            // ContentPortfolio,
         },
     };
 </script>
